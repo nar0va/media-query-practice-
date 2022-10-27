@@ -1,0 +1,136 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    min-height: 600px;
+    background: white;
+    float: left;
+}
+
+.header{
+    width: inherit;
+    min-height: 100px;
+    background: pink;
+    float: left;
+
+}
+
+.center{
+    width: inherit;
+    min-height: 400px;
+    background: white;
+    float: left;
+}
+
+
+.nav{
+    width: 20%;
+    min-height: inherit;
+    background: rgb(93, 64, 69);
+    float: left;
+}
+
+.article{
+    width: 60%;
+    min-height: inherit;
+    background: rgb(56, 41, 43);
+    float: left;
+
+}
+
+.ads{
+    width: 20%;
+    min-height: inherit;
+    background: rgb(194, 123, 135);
+    float: left;
+}
+
+
+.bottom{
+    width: 100%;
+    min-height: 100px;
+    background: rgb(209, 48, 75);
+    float: left;
+}
+
+@media screen and (max-width: 768px) {
+ 
+.main{
+    width: 100%;
+    min-height: 600px;
+    background: white;
+    float: left;
+}
+
+.nav{
+    width: 33.3%;
+    min-height: inherit;
+    background: rgb(93, 64, 69);
+    float: left;
+}
+
+.article{
+    width: 33.3%;
+    min-height: inherit;
+    background: rgb(56, 41, 43);
+    float: left;
+
+}
+
+.ads{
+    width: 33.3%;
+    min-height: inherit;
+    background: rgb(194, 123, 135);
+    float: left;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .main{
+        width: 100%;
+        min-height: 600px;
+        background: white;
+        float: left;
+    }
+
+    .header{
+        width: inherit;
+        min-height: 80px;
+        background: pink;
+        float: left;
+    }
+    
+    .nav{
+        width: 100%;
+        min-height: 146px;
+        background: rgb(93, 64, 69);
+        float: left;
+    }
+    
+    .article{
+        width: 100%;
+        min-height: 146px;
+        background: rgb(56, 41, 43);
+        float: left;
+    
+    }
+    
+    .ads{
+        width: 100%;
+        min-height: 146px;
+        background: rgb(194, 123, 135);
+        float: left;
+    }
+
+    .bottom{
+        width: 100%;
+        min-height: 80px;
+        background: rgb(209, 48, 75);
+        float: left;
+    }
+}
